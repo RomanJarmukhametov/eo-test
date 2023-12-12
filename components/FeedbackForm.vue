@@ -25,7 +25,7 @@
   const formSubmitted = ref(false);
 
   // Define a reactive property for a message to display if the terms are not accepted
-  const termMessage = ref<string>("Please agree to the terms");
+  const termMessage = ref<string>("Пожалуйста, примите условия ");
 
   // Define a reactive property to show that the form has been submitted successfully
   const successMessage = ref("");
@@ -213,7 +213,7 @@
           Отправить
         </button>
       </div>
-      <div>
+      <div v-auto-animate>
         <!-- Only show this message if the form has been submitted and terms are not accepted -->
         <p
           class="text-red-500 text-xs italic"
@@ -227,16 +227,16 @@
       <div
         v-if="successMessage"
         class="mt-4 p-4 bg-green-100 text-green-800 rounded"
+        v-auto-animate
       >
         {{ successMessage }}
       </div>
 
       <!-- Debugging output to display the submissions -->
-      <pre class="mt-4 bg-gray-100 p-4 rounded">
+      <!-- <pre class="mt-4 bg-gray-100 p-4 rounded">
         <p>Debugging output to display the submissions</p>
-      <!-- {{ JSON.stringify(submissions, 2) }} -->
       {{ submissions }}
-    </pre>
+    </pre> -->
     </form>
   </div>
 </template>

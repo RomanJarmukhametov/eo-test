@@ -11,6 +11,7 @@
     </h2>
     <ul
       class="list-disc list-inside bg-white shadow-lg rounded-lg p-6 divide-y divide-gray-200"
+      v-auto-animate
     >
       <li v-for="submission in submissions" :key="submission.id" class="py-4">
         <span class="font-semibold text-blue-600">ID:</span> {{ submission.id }}
@@ -35,6 +36,7 @@
       <NuxtLink
         class="text-blue-600 hover:underline transition duration-150 ease-in-out"
         to="https://nuxt.com/docs/getting-started/state-management"
+        target="_blank"
         >State Management</NuxtLink
       >.
     </p>
