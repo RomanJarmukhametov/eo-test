@@ -29,6 +29,15 @@
       after server-side rendering (during client-side hydration) and shared
       across all components using a unique key.
     </p>
+
+    <p class="mt-4 text-gray-700 text-lg">
+      See docs for more information on
+      <NuxtLink
+        class="text-blue-600 hover:underline transition duration-150 ease-in-out"
+        to="https://nuxt.com/docs/getting-started/state-management"
+        >State Management</NuxtLink
+      >.
+    </p>
   </div>
 </template>
 
