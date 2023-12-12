@@ -1,3 +1,7 @@
+`npm install`
+
+`npm run dev`
+
 # Setting Up a Nuxt + Tailwind Project
 
 Craft seamless web applications by integrating Nuxt3 and Tailwind CSS, enhanced with vital modules. Here's a streamlined guide to get you started:
@@ -5,7 +9,6 @@ Craft seamless web applications by integrating Nuxt3 and Tailwind CSS, enhanced 
 ## 1. **Creating a New Nuxt3 Project**
 
 Begin with creating a fresh Nuxt3 application:
-
 
 `npx nuxi@latest init my-app`
 
@@ -73,17 +76,7 @@ To enrich your app with animations:
 
 Include `@vueuse/motion/nuxt` in your modules.
 
-## 8. **Content Management with Nuxt Content v2**
-
-Nuxt Content offers a smooth writing experience to boost your productivity:
-
-bashCopy code
-
-`npm install @nuxt/content`
-
-Ensure you refer to the [official documentation](https://content.nuxt.com/) for Nuxt Content to correctly set up and configure it for your application.
-
-----------
+---
 
 The guide now aligns with the provided `package.json` content, streamlining the setting up of a Nuxt3 project integrated with Tailwind CSS and the mentioned modules. To jump into the action, clone our repository that comes pre-configured. Begin your web development journey on solid ground.
 
